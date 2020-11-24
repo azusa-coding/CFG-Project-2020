@@ -1,1 +1,90 @@
 /* css file for the main.html */
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+/* h1 {
+    font-size: 25px;
+} */
+
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Karma", sans-serif
+}
+.w3-bar-block .w3-bar-item {padding:20px}
+
+.centered_h_b{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.centered_p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.about_us{
+    font-size: 18px;
+}
+
+
+
+.about_us{
+    text-align: center;
+}
+
+
+input[type=text]#email  {
+  width: 60%;
+  padding: 1px 10px;
+  font-size: 20px;
+  /* margin: 50px 0; */
+  /* margin-bottom: 50px; */
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.sub_questions {
+    font-size: 20px;
+
+}
+
+input[type=submit]#submit  {
+    font-size: 20px;
+  width: 20%;
+  background-color: darkgray;
+  color: white;
+  padding: 1px 10px;
+  /* margin: 8px 0; */
+  /* margin-top: 20px; */
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]#submit :hover #submit {
+  background-color: black;
+}
+
+.input_group{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: auto;
+}
+
+#subscribe {
+    
+    width: 100%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+ 
+ 
+}
+
+
