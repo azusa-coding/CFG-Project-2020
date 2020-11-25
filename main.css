@@ -1,9 +1,4 @@
 /* css file for the main.html */
-a:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-  }
 
 /* h1 {
     font-size: 25px;
@@ -12,6 +7,13 @@ a:link {
 body,h1,h2,h3,h4,h5,h6 {
     font-family: "Karma", sans-serif
 }
+
+a.links {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
 .w3-bar-block .w3-bar-item {padding:20px}
 
 .w3-content {
