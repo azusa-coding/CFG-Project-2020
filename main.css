@@ -28,6 +28,11 @@ body,h1,h2,h3,h4,h5,h6 {
     overflow: hidden;
 }
 
+.top_img {
+    background-color: rgb(37, 172, 89);
+    padding: 50px ;
+}
+
 /* .object-fit {
     object-fit: none
   } */
