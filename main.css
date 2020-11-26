@@ -17,6 +17,16 @@ a.links {
     
 }
 
+/* style="overflow: hidden; width: 600px; height: 300px;" */
+
+.matcha{
+    background-position: center;
+
+    height: 400px;
+    width: 500px;
+    overflow: hidden;
+}
+
 .crop {
     height: 300px;
     width: 700px;
