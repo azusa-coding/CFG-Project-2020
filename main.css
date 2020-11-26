@@ -19,6 +19,11 @@ a.links {
 
 /* style="overflow: hidden; width: 600px; height: 300px;" */
 
+#subscribe_Home {
+    text-align: center;
+    /* color: green; */
+}
+
 .matcha{
     background-position: center;
 
