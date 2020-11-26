@@ -118,12 +118,16 @@
       <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-green">
         </div>
-        <div class="w3-container w3-white">
+        <div class="w3-container w3-green">
           <p>Enter your e-mail below and get notified on the latest blog posts.</p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
-          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-green">Subscribe</button></p>
-        </div>
-      </div>
+           <div class="input_group">
+              <input type="text" name="email" id="email" placeholder="Enter your email address">
+               <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-green">Subscribe</button>
+               <input type="submit" value="Submit" id="submit"> </p>
+            </div>
+        </form>
+        
+    </div>
 
     <!-- Footer -->
     <footer class="w3-row-padding w3-padding-32">
