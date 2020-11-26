@@ -32,13 +32,23 @@ a.links {
     overflow: hidden;
 }
 
+img.object-fit {
+    height: 400px;
+    width: 700px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 0;
+    overflow: hidden;
+}
+/* 
 .crop {
-    max-height: 300px;
+    max-height: 70px;
     max-width: 700px;
     margin-bottom: 5px;
     margin-left: 5px;
+    margin-right: 0;
     overflow: hidden;
-}
+} */
 
 .top_img {
     background-color:#4CAF50;
